@@ -1,8 +1,100 @@
-html {
-  text-size-adjust: 100%;
+body {
+  font-family: Arial, sans-serif;
 }
 
-body {
+hr {
+  border: 0;
+  border-bottom: 0.2em solid #c30;
+  margin: 0 3em 0 3em;
+}
+
+nav {
+  background-color: #ccc;
+  padding-bottom: .1em;
+}
+
+nav .links {
+  margin: 0 100px;
+  border-top: 5px solid #c30;
+  padding: 20px;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
   margin: 0;
-  font: 16px / 1 sans-serif;
+}
+
+nav a {
+  text-decoration: none;
+}
+
+nav a:link { color: inherit;}
+nav a:visited { color: inherit;}
+nav a:hover { color: #c30;}
+
+h1 {
+  padding-top: 1em;
+  padding-bottom: .5em;
+  margin: 0;
+  text-align: center;
+  color: #555;
+}
+
+h3 {
+  color: #999;
+  margin: 0 15em 0 15em;
+  text-align: center;
+  padding-top: 0em;
+}
+
+#logo {
+  font-weight: bold;
+  text-transform: uppercase;
+  align-self: flex-start;
+}
+
+
+section.ni {
+  display: flex;
+  padding-top: 2em;
+  justify-content: center;
+}
+
+section.ni img {
+margin: .5em;
+}
+
+section.box {
+  display: flex;
+  padding-top: 1em;
+  font-size: 80%;
+  margin: 0 5em 0 5em;
+}
+
+.box div {
+  align-self: flex-start;
+}
+
+.box h4 {
+  font-size: 120%;
+  /*align-items: flex-start;*/
+}
+
+.whats-new {
+  flex: 1;
+}
+
+.whats-new h4 {
+  color: #c30;
+}
+
+.modern-layout {
+  flex: 3;
+}
+
+.modern-layout p {
+  column-count: 3;
 }
