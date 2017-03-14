@@ -2,15 +2,20 @@ body {
   font-family: Arial, sans-serif;
 }
 
-hr {
-  border: 0;
-  border-bottom: 0.2em solid #c30;
-  margin: 0 3em 0 3em;
-}
-
 nav {
   background-color: #ccc;
   padding-bottom: .1em;
+}
+
+.links {
+  display: flex;
+}
+nav p{
+  font-weight: bold;
+  text-transform: uppercase;
+  flex: 1;
+  padding: 0 2em 0 0;
+  margin: 0;
 }
 
 nav .links {
@@ -23,8 +28,9 @@ nav ul {
   list-style-type: none;
   display: flex;
   justify-content: space-between;
-  padding: 0;
+  padding: 0 15em 0 0;
   margin: 0;
+  flex: 4;
 }
 
 nav a {
@@ -49,13 +55,6 @@ h3 {
   text-align: center;
   padding-top: 0em;
 }
-
-#logo {
-  font-weight: bold;
-  text-transform: uppercase;
-  align-self: flex-start;
-}
-
 
 section.ni {
   display: flex;
