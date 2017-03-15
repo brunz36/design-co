@@ -1,7 +1,7 @@
 {
   "private": true,
   "scripts": {
-    "deploy": "surge ./public --domain design-co.brunoribeiro\n.surge.sh",
+    "deploy": "surge ./public --domain design-co.brunz36.surge.sh",
     "start": "browser-sync start --server 'public' --files 'public'"
   },
   "devDependencies": {
